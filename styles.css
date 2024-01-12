@@ -39,3 +39,23 @@ body {
     border: 2px solid #328CCD;
     border-radius: 5px;
 }
+
+
+.container-dogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.container-dogs img {
+    width: 200px;
+    /* Set a fixed width for the images */
+    height: 150px;
+    /* Set a fixed height for the images */
+    object-fit: cover;
+    /* Ensure the aspect ratio of the image is maintained */
+    margin: 10px;
+    border-radius: 10px;
+}
