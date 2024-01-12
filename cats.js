@@ -3,6 +3,13 @@ const catsTitle = document.getElementById("catsTitle");
 catsTitle.addEventListener("click", async function () {
     const response = await fetch("https://api.thecatapi.com/v1/images/search?limit=10")
     const imagesUrl = await response.json()
+    const dogsContainer = document.getElementById("logic-container-dogs");
+
+    dogsContainer.classList.add("hide-section");
+
+    const catsContainer = document.getElementById('catsContainer');
+
+    catsContainer.classList.remove('hide-section');
 
     imagesUrl.forEach(image => {
 
