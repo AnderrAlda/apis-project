@@ -1,11 +1,11 @@
 body {
     background-color: #DCDCDC;
     width: 80%;
-    margin: 0 auto; 
-    font-family: 'Kavoon', serif; 
+    margin: 0 auto;
+    font-family: 'Kavoon', serif;
 }
 
-.logo_container{
+.logo_container {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -22,7 +22,20 @@ body {
     font-weight: bold;
 }
 
-.name_animals{
+.name_animals {
     cursor: pointer;
     font-size: 32px;
+}
+
+.cats-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 3%;
+}
+
+.cats-images {
+    width: 19%;
+    border: 2px solid #328CCD;
+    border-radius: 5px;
 }
